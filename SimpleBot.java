@@ -6,11 +6,13 @@ public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in); // Do not change this line
 
     public static void main(String[] args) {
-        greet("Aid", "2018"); // change it as you need
+        greet("MemoBot", "2021");
         remindName();
         guessAge();
         count();
         test();
+        end();
+
     }
 
     static void greet(String assistantName, String birthYear) {
@@ -55,9 +57,6 @@ public class SimpleBot {
             System.out.println("Please, Try again");
             option = scanner.nextInt();
         }
-
-        end();
-
     }
 
     static void end() {
