@@ -1,3 +1,3 @@
 # Simple-Chatty-Bot
 
-Full soliton of HyperSkill's easy-level project.
+Full solution of HyperSkill's easy-level project.
